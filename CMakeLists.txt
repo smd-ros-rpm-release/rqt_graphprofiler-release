@@ -3,9 +3,7 @@ project(rqt_graphprofiler)
 
 find_package(catkin REQUIRED COMPONENTS
 #   message_generation
-  rospy
-  rqt_gui
-  rqt_gui_py
+  genmsg
   std_msgs
 )
 
@@ -33,4 +31,4 @@ install(PROGRAMS scripts/rqt_graphprofiler
 install(FILES plugin.xml
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
-catkin_add_nosetests(test)
+# catkin_add_nosetests(test)
