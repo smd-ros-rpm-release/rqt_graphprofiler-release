@@ -1,0 +1,25 @@
+ros-indigo-rqt-graphprofiler (0.1.2-0trusty) trusty; urgency=high
+
+  * removes std_msgs from CMakeLists (it does not have a build_depend in
+    package.xml)
+  * Contributors: dan brooks
+
+ -- Dan Brooks <dan@osrfoundation.org>  Fri, 17 Oct 2014 04:00:00 -0000
+
+ros-indigo-rqt-graphprofiler (0.1.1-0trusty) trusty; urgency=high
+
+  * deactivates nosetest because of broken dep on flake8
+  * add architecture independence as suggested by #29 <https://github.com/osrf/rqt_graphprofiler/issues/29>
+  * fix build farm compilation
+  * Contributors: Vincent Rabaud, dan brooks
+
+ -- Dan Brooks <dan@osrfoundation.org>  Fri, 17 Oct 2014 04:00:00 -0000
+
+ros-indigo-rqt-graphprofiler (0.1.0-0trusty) trusty; urgency=high
+
+  * Initial Release of rqt_graphprofiler
+  * Contributors: William Woodall, dan brooks
+
+ -- Dan Brooks <dan@osrfoundation.org>  Fri, 22 Aug 2014 04:00:00 -0000
+
+
